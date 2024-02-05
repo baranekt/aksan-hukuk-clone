@@ -1,0 +1,150 @@
+.header{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(1, 37, 100,0.5), rgba(14,37,100,0.5)), url(img/hero.jpg);   
+}
+
+.header-content ul li{
+    padding-left: 2rem;
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.search{
+    color: #990033;
+}
+form input{
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 1rem;
+    outline: none;
+    width: 100%;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: white;
+    transition-duration: 0.3s;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.button button:hover{
+    color: white;
+    background-color: #990033;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* HİZMETLERİMİZ */
+
+.hizmetlerimiz-header{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(1, 37, 100,0.5), rgba(14,37,100,0.5)), url(img/771e046a.jpg);
+}
+
+.hizmetlerimiz-h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #990033;
+}
+
+.hizmetlerimiz-row ul li{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.hizmetlerimiz-row ul li:hover{
+    color: #990033;
+    transition-duration: 0.3s;
+}
+
+/* İLETİŞİM */
+
+.iletisim-header{
+    background-image: linear-gradient(rgba(14,37,100,0.5),rgba(14,37,100,0.5)) ,url(img/4bc039ab.jpg);
+    width: 100%;
+    height: 60vh;
+}
+.iletisim-section h4{
+    color: #990033;
+}
+.iletisim-section a{
+    text-decoration: none;
+    color: black;
+}
+.iletisim-section button{
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+}
+.iletisim-section button:hover{
+    background-color: rgba(14,37,100);
+    color: white;
+}
+.iletisim-p{
+    color: #990033;
+}
+.iletisim-section form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(2,10,32);
+    padding: 3rem;
+}
+.footer-content .row a{
+    color: white;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+.footer-content .row a:hover{
+    color: rgb(128, 128, 128);
+}
+.footer-content .row input{
+    background-color: rgb(2,10,32);
+}
+.footer-content ::placeholder{
+    color: rgb(145, 140, 140);
+}
+.footer-content .row button{
+    color: white;
+    border-color: white;
+
+}
+.footer-content .row button:hover{
+    color: rgb(2,10,32);
+    background-color: white;
+}
+.footer-content .row ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.sosyal a{
+    padding-left: 30px;
+    font-size: 25px;
+}
